@@ -1,0 +1,268 @@
+ <!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Inicio</title>
+    <link rel='stylesheet' href='../style/index.css'>
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="icon" type="image/jpeg" href="../image/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="../image/logoSinFondo.png" alt="Logo">
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="../view/index.html">Inicio</a></li>
+                <li><a href="../view/servicios.html">Productos</a></li>
+                <li><a href="../view/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="info">
+                <h1>Bienvenido a TecnoRepuestos</h1>
+                <p>Donde encontrara las mejores refacciones y accesorios para su vehiculo.
+                    Con una amplia variedad de productos de alta calidad, estamos seguros de que encontrará lo que
+                    necesita.
+                    Explore nuestro catálogo y descubra todo lo que tenemos para ofrecerle!</p>
+                <a href="../view/servicios.html">
+                    <button class="btn-explorar">
+                        <i class="bi bi-car-front"></i>
+                        Explorar catálogo
+                    </button>
+                </a>
+            </div>
+        </section>
+        <section class="productos">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="productos-grid">
+                <div class="producto-card">
+                    <img src="../image/amortiguadores.jpeg" alt="Amortiguadores">
+                    <div class="producto-info">
+                        <h3>Amortiguadores</h3>
+                        <p>Mejora la suspensión y el confort de tu viaje con nuestra selección premium.</p>
+                        <button class="btn-comprar" data-nombre="Amortiguadores" data-precio="Q 350.00"><i class="bi bi-bag"></i> Comprar</button>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="../image/bujia.jpeg" alt="Bujías">
+                    <div class="producto-info">
+                        <h3>Bujías</h3>
+                        <p>Optimiza el encendido y rendimiento de tu motor garantizando máxima eficiencia.</p>
+                        <button class="btn-comprar" data-nombre="Bujías" data-precio="Q 120.00"><i class="bi bi-bag"></i> Comprar</button>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="../image/faros.jpeg" alt="Faros">
+                    <div class="producto-info">
+                        <h3>Faros LED</h3>
+                        <p>Iluminación superior para una conducción nocturna mucho más segura.</p>
+                        <button class="btn-comprar" data-nombre="Faros LED" data-precio="Q 450.00"><i class="bi bi-bag"></i> Comprar</button>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="../image/filtroAceite.jpeg" alt="Filtro de Aceite">
+                    <div class="producto-info">
+                        <h3>Filtro de Aceite</h3>
+                        <p>Mantiene el motor libre de impurezas y prolonga la vida útil del vehículo.</p>
+                        <button class="btn-comprar" data-nombre="Filtro de Aceite" data-precio="Q 85.00"><i class="bi bi-bag"></i> Comprar</button>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="../image/freno.jpeg" alt="Frenos">
+                    <div class="producto-info">
+                        <h3>Pastillas de Freno</h3>
+                        <p>Frenado preciso y seguro con materiales de alta resistencia y durabilidad.</p>
+                        <button class="btn-comprar" data-nombre="Pastillas de Freno" data-precio="Q 280.00"><i class="bi bi-bag"></i> Comprar</button>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="../image/intercooler.jpeg" alt="Intercooler">
+                    <div class="producto-info">
+                        <h3>Intercooler</h3>
+                        <p>Máximo enfriamiento para que tu motor rinda al máximo de su capacidad.</p>
+                        <button class="btn-comprar" data-nombre="Intercooler" data-precio="Q 850.00"><i class="bi bi-bag"></i> Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="categorias">
+            <h2 class="section-title">Categorías</h2>
+            <div class="categorias-container">
+                <div class="categoria-box">
+                    <i class="bi bi-gear-fill"></i>
+                    <span>Motor</span>
+                </div>
+                <div class="categoria-box">
+                    <i class="bi bi-lightning-fill"></i>
+                    <span>Eléctrico</span>
+                </div>
+                <div class="categoria-box">
+                    <i class="bi bi-shield-check"></i>
+                    <span>Frenos</span>
+                </div>
+                <div class="categoria-box">
+                    <i class="bi bi-tools"></i>
+                    <span>Suspensión</span>
+                </div>
+                <div class="categoria-box">
+                    <i class="bi bi-car-front-fill"></i>
+                    <span>Carrocería</span>
+                </div>
+            </div>
+        </section>
+        <section class="marcas">
+            <h2 class="section-title">Nuestras Marcas</h2>
+            <div class="marcas-grid">
+                <div class="marca-item">
+                    <img src="../image/castrol.png" alt="Castrol">
+                </div>
+                <div class="marca-item">
+                    <img src="../image/chevrolet.jpg" alt="Chevrolet">
+                </div>
+                <div class="marca-item">
+                    <img src="../image/hks.png" alt="HKS">
+                </div>
+                <div class="marca-item">
+                    <img src="../image/honda.png" alt="Honda">
+                </div>
+                <div class="marca-item">
+                    <img src="../image/mazda.jpg" alt="Mazda">
+                </div>
+                <div class="marca-item">
+                    <img src="../image/nissan.jpg" alt="Nissan">
+                </div>
+                <div class="marca-item">
+                    <img src="../image/sparco.png" alt="Sparco">
+                </div>
+                <div class="marca-item">
+                    <img src="../image/toyota.png" alt="Toyota">
+                </div>
+            </div>
+        </section>
+        <section class="ofertas">
+            <h2 class="section-title">Ofertas Especiales</h2>
+            <p class="section-subtitle">Aprovecha nuestros descuentos exclusivos por tiempo limitado</p>
+            <div class="ofertas-grid">
+                <div class="oferta-card">
+                    <div class="descuento-badge">-20%</div>
+                    <img src="../image/aceite.jpeg" alt="Aceite Sintético">
+                    <div class="oferta-info">
+                        <h3>Aceite de Motor Sintético</h3>
+                        <p class="precio-original">Q45.00</p>
+                        <p class="precio-oferta">Q36.00</p>
+                        <button class="btn-comprar" data-nombre="Aceite de Motor Sintético" data-precio="Q36.00" data-oferta="true"><i class="bi bi-bag"></i> Agregar</button>
+                    </div>
+                </div>
+                <div class="oferta-card">
+                    <div class="descuento-badge">-15%</div>
+                    <img src="../image/bateria.jpeg" alt="Batería">
+                    <div class="oferta-info">
+                        <h3>Batería de Alto Rendimiento</h3>
+                        <p class="precio-original">Q120.00</p>
+                        <p class="precio-oferta">Q102.00</p>
+                        <button class="btn-comprar" data-nombre="Batería de Alto Rendimiento" data-precio="Q102.00" data-oferta="true"><i class="bi bi-bag"></i> Agregar</button>
+                    </div>
+                </div>
+                <div class="oferta-card">
+                    <div class="descuento-badge">-30%</div>
+                    <img src="../image/escape.jpeg" alt="Sistema de Escape">
+                    <div class="oferta-info">
+                        <h3>Sistema de Escape Deportivo</h3>
+                        <p class="precio-original">Q250.00</p>
+                        <p class="precio-oferta">Q175.00</p>
+                        <button class="btn-comprar" data-nombre="Sistema de Escape Deportivo" data-precio="Q175.00" data-oferta="true"><i class="bi bi-bag"></i> Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="contacto">
+            <h2 class="section-title">Contáctanos</h2>
+            <p class="section-subtitle">Estamos aquí para ayudarte. Encuéntranos o comunícate con nosotros.</p>
+            <div class="contacto-container">
+                <div class="contacto-info-box">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <h3>Ubicación</h3>
+                    <p>Ciudad Guatemala, Guatemala</p>
+                </div>
+                <div class="contacto-info-box">
+                    <i class="bi bi-telephone-fill"></i>
+                    <h3>Teléfono</h3>
+                    <p>+502 4444-4444</p>
+                </div>
+                <div class="contacto-info-box">
+                    <i class="bi bi-envelope-fill"></i>
+                    <h3>Correo</h3>
+                    <p>info@tecnorepuestos.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ── Modal de compra exitosa ── -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-card" id="modalCard">
+            <div class="modal-icon-wrapper">
+                <i class="bi bi-bag-check-fill modal-icon-main"></i>
+            </div>
+            <h2 class="modal-title">¡Compra Exitosa!</h2>
+            <div class="modal-producto-info">
+                <p class="modal-label"><i class="bi bi-box-seam"></i> Producto</p>
+                <p class="modal-valor" id="modalNombre">—</p>
+                <p class="modal-label"><i class="bi bi-tag-fill"></i> Precio</p>
+                <p class="modal-valor modal-precio" id="modalPrecio">—</p>
+                <p class="modal-oferta-badge" id="modalTipo" style="display:none;"><i class="bi bi-percent"></i> ¡Precio de oferta aplicado!</p>
+            </div>
+            <p class="modal-mensaje">
+                <i class="bi bi-truck"></i> Tu pedido está siendo procesado.<br>
+                <i class="bi bi-shield-check"></i> Compra 100% segura y garantizada.
+            </p>
+            <button class="modal-btn-cerrar" id="modalCerrar">
+                <i class="bi bi-check-circle"></i> Aceptar
+            </button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="../image/logoSinFondo.png" alt="TecnoRepuestos Logo">
+                <p>Tu tienda de confianza para refacciones y accesorios automotrices de la más alta calidad.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="../view/index.html">Inicio</a></li>
+                    <li><a href="../view/servicios.html">Productos</a></li>
+                    <li><a href="../view/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>TecnoRepuestos © 2026, todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="../js/menu.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
